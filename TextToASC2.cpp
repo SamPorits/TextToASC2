@@ -191,7 +191,7 @@ int main()
 	int numberInRow = 0;
 
 	// Introduction
-	if (false) //for debugging purposes
+	if (true) //for debugging purposes
 	{
 		std::this_thread::sleep_for(std::chrono::seconds(1));
 		slowprint("Hello, ", 90);
@@ -251,7 +251,7 @@ int main()
 	}
 	//Output Stage
 
-	if (false) //debugging purposes
+	if (true) //debugging purposes
 	{
 		slowprint("Original input: ", 90);
 		std::this_thread::sleep_for(std::chrono::milliseconds(700));
@@ -262,7 +262,7 @@ int main()
 		slowprint(binaryOutput, 90);
 	}
 
-	if (true) 
+	if (false) 
 	{
 		cout << "Original inut: " << userInput << endl;
 		cout << "Binary output: " << binaryOutput << endl;
